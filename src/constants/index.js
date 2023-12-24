@@ -39,7 +39,11 @@ import {
   JiraIcon,
   SourcetreeIcon,
   AzureIcon,
-  MatlabIcon
+  MatlabIcon,
+  BusManagement,
+  MovieRecommendation,
+  TrumindsProject1,
+  TrumindsProject2
 } from "../assets";
 
 export const navLinks = [
@@ -138,27 +142,27 @@ const technologies = [
 const experiences = [
   {
     title: "SDE - 1",
-    company_name: "Truminds Software Systems",
+    company_name: "Truminds Software Systems, Bengaluru",
     icon: trumindsIcon,
     iconBg: "#383E56",
     date: "Aug 2023 - Present",
     points: [
-      "Worked with React, Reselect, Redux, Firebase, Razorpay Api, Node-Sass, SailsJS, REST Apis and MongoDB.",
-      "Implemented state and async code management using redux and saga, dynamic loading SVG animation generator.",
-      "Implemented server functionalities using best practies regarding REST api and sailsJS."
+      "Developed iOS app using Swift UI and Android app using Flutter for real client projects.",
+      "Managed various aspects of app development, including designing the user interface and integrating APIs.",
+      "Fixed bugs and made improvements based on client feedback and demo sessions.",
+      "Used tools like Azure, Bitbucket, Jira, Android Studio and Xcode for effective project development."
     ],
   },
   {
     title: "Software  Developer Intern",
-    company_name: "Truminds Software Systems",
+    company_name: "Truminds Software Systems, Bengaluru",
     icon: trumindsIcon,
     iconBg: "#383E56",
-    date: "Jan 2023 - July 2023",
+    date: "Feb 2023 - July 2023",
     points: [
-      "Switched basic app framework from VueJS to ReactJS and implemented provided AdobeXD design Upgrades.",
-      "Applied multi-threading using web-worker for reoccurring tasks on react.",
-      "Implemented multiple lambda functions, ses templates for the company’s AWS server.",
-      "Worked on optimising and increasing the page speed score of previously built applications",
+      "Developed web application built in Angular to improve remote Educational document verification.",
+      "I took care of different parts of making the website, especially how it looks and works with other systems  and integrating APIs.",
+      "Utilized tools such as GitHub, Visual Studio Code, and Mobaxterm, along with cutting-edge technologies, to ensure efficient and effective project development."
     ],
   },
   {
@@ -168,24 +172,11 @@ const experiences = [
     iconBg: "#383E56",
     date: "May 2022 - June 2022",
     points: [
-      "Worked on super-collider to gather data using vdkcli and python scripting and creating charts to monitor data.",
-      "Worked with python scripting to automate data collection through super-collider job which was previously done manually",
-      "Worked with tools like wavefront, bigpanda, logz to monitor, maintain and remediate alerts for customer sddc’s"
+      "Explored membrane separation technologies through research and investigation.",
+      "Collaborated within a team and operated machinery, including a weighting machine, muffle furnace and ball mill.",
+      "Learned how to make membranes, figured out ways to test and understand them better, and did hands-on tasks like pouring paste, sintering, and ultrasonic cleaning."
     ],
   },
-  // {
-  //   title: "Member of Technicla Staff - 1",
-  //   company_name: "VMware",
-  //   icon: vmware,
-  //   iconBg: "#E6DEDD",
-  //   date: "July 2022 - Present",
-  //   points: [
-  //     "Worked on automating & patching activity for different components of the project using python and Jenkins.",
-  //     "Day to day activities involved monitoring, remediating and escalating customer’s software defined data center alerts",
-  //     "Authored RTS(Remediation & Troubleshooting Service) scripts which use python scripting for automating common day to day alerts triaging and remediation",
-  //     "Developed and maintained monitoring capabilities for diffent aspects of the project like backup failure, vm snapshot analysis, cert expiry etc. using python and jenkins"
-  //   ],
-  // }
 ];
 
 const testimonials = [
@@ -217,100 +208,105 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Yelp Camp",
+    name: "iOS Platform VPN Application",
     description:
-      "A server side rendering website built for choosing campgrounds with technologies like jQuery, MongoDB, HTML, CSS, mongoose, passport, node, multer and other javascript libraries.",   
+      "It is VPN application with key functionality of supporting multiple network interfaces with detailed real-time statistics of speed, responsiveness, data usage, connection logs and customized VPN settings for account management, server selection, network preferences, location access and multilingual support.",   
     tags: [
       {
-        name: "react",
+        name: "SwiftUI",
         color: "blue-text-gradient",
       },
+      // {
+      //   name: "SourceTree",
+      //   color: "green-text-gradient",
+      // },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "express",
+        name: "XCode",
         color: "pink-text-gradient",
       },
       {
-        name: "ejs",
-        color: "orange-text-gradient",
-      }
-    ],
-    image: yelpcamp,
-    source_code_link: "https://github.com/neelesh17/YelpCamp",
-  },
-  {
-    name: "Crown Clothing",
-    description:
-      "A client side rending e-commerce shopping website built using React, Redux, Firebase, HTML, Styled Component, NodeJS , Express, stripe for processing payments and react-lazy for optimising code",    
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "firebase",
+        name: "Jira",
         color: "green-text-gradient",
       },
       {
-        name: "stripe",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "redux",
+        name:"Bitbucket",
         color: "orange-text-gradient",
       },
     ],
-    image: crown_clothing,
-    source_code_link: "https://github.com/neelesh17/crown-clothing",
+    image: TrumindsProject1,
+    //source_code_link: "https://github.com/neelesh17/YelpCamp",
   },
   {
-    name: "Maynooth Furniture",
+    name: "Automated BG Verification System",
     description:
-      "A furniture purchasing site using React, Redux, Styled Component, Express, NodeJS, PassportJS, MongoDB, Stripe for payments and react-lazy for optimising code", 
+      "The purpose of this website is to improve remote Educational document verification, providing the flexible mode of mapping the various verification data points with the Issuing Authority data points with Batch mode feature to further enhance efficiency by enabling smart verification in bulk.",    
     tags: [
       {
-        name: "react",
+        name: "Angular",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "FrontEnd Developement",
         color: "green-text-gradient",
       },
       {
-        name: "redux",
+        name: "Bootstrap",
         color: "pink-text-gradient",
       },
-      {
-        name:"styled-components",
-        color: "orange-text-gradient",
-      }
     ],
-    image: maynooth,
-    source_code_link: "https://github.com/neelesh17/Mayooth-Furniture",
+    image: TrumindsProject2,
+    //source_code_link: "https://github.com/neelesh17/crown-clothing",
   },
   {
-    name: "Expense Tracker",
+    name: "Movie Recommender System",
     description:
-      "A Voice automated expense tracker made with the help of react, speechly and chartJS. It is also a Progressive Web App, thus it can also be install as an app in both android and IOS.", 
+      "Used Content-based ML algorithm to recommend movies to a user from dataset of 5000 movies from the TMDB site, As the user provides more inputs or takes actions on the recommender, the engine becomes more accurate.", 
+    tags: [
+      {
+        name: "Text Vectorization",
+        color: "blue-text-gradient",
+      },
+      {
+        name:"Jupyter Notebook",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Cosine distance",
+        color: "green-text-gradient",
+      },
+      {
+        name:"Machine Learning",
+        color: "orange-text-gradient",
+      },
+      {
+        name:"Python",
+        color: "pink-text-gradient",
+      },
+      
+    ],
+    image: MovieRecommendation,
+    source_code_link: "https://movie-recommendation-system-7ver.onrender.com/",
+  },
+  {
+    name: "Bus Reservation System",
+    description:
+      "Used OOPS and File handling concepts for performing various functions like adding/displaying/updating/searching/deleting bus records, displaying routes of buses, and seats renew.", 
       tags: [
       {
-        name: "react",
+        name: "C++",
         color: "blue-text-gradient",
       },
       {
-        name: "speechly",
+        name: "File handline",
         color: "green-text-gradient",
       },
       {
-        name: "chartjs",
+        name: "Object-Oriented Programming (OOP)",
         color: "pink-text-gradient",
       }
     ],
-    image: expense_tracker,
-    source_code_link: "https://github.com/neelesh17/Expense-Tracker",
+    image: BusManagement,
+    source_code_link: "https://github.com/Khushi2207/Bus-Reservation-System",
   }
 ];
 
