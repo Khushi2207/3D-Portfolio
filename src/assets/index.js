@@ -46,6 +46,12 @@ import crown_clothing from './crown_clothing.png'
 import expense_tracker from './expense_tracker.png'
 import maynooth from './maynooth.png'
 import yelpcamp from './yelpcamp.png'
+import TrumindsProject1 from './TrumindsProject1.jpeg'
+import TrumindsProject2 from './TrumindsProject2.jpg' 
+import BusManagement from './BusManagement.png'
+import MovieRecommendation from './MovieRecommendation.png'
+
+
 
 
 
@@ -94,5 +100,9 @@ export {
   JiraIcon,
   SourcetreeIcon,
   AzureIcon,
-  MatlabIcon
+  MatlabIcon,
+  TrumindsProject1,
+  TrumindsProject2,
+  BusManagement,
+  MovieRecommendation
 };
