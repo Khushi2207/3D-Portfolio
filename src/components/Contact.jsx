@@ -27,9 +27,9 @@ const Contact = () => {
       "template_cmy5uib", //service id
       {
         from_name: form.name,
-        to_name: 'Neelesh',
+        to_name: 'Khushi',
         from_email: form.email,
-        to_email: "nt00605@gmail.com",
+        to_email: "khushigupta2207@gmail.com",
         message: form.message
       },
       "oia6fG5cVn6QkqPpE" //public key

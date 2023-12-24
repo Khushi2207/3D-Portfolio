@@ -22,7 +22,24 @@ import {
   expense_tracker,
   crown_clothing,
   maynooth,
-  yelpcamp
+  yelpcamp,
+  deftIcon,
+  trumindsIcon,
+  flutterIcon,
+  SwiftIcon,
+  css,
+  AngularIcon,
+  CplusIcon,
+  SqlIcon,
+  MachineLearningIcon,
+  DsaIcon,
+  OperatingSystemIcon,
+  ComputerNetworkIcon,
+  BitbucketIcon,
+  JiraIcon,
+  SourcetreeIcon,
+  AzureIcon,
+  MatlabIcon
 } from "../assets";
 
 export const navLinks = [
@@ -46,81 +63,85 @@ const services = [
     icon: creator,
   },
   {
-    title: "Site Reliability Engineer",
-    icon: web,
-  },
-  {
-    title: "React Developer",
+    title: "iOS App Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Frontend Developer",
+    icon: web,
+  },
+  {
+    title: "Android App Developer",
     icon: backend,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Flutter",
+    icon: flutterIcon,
   },
   {
-    name: "JavaScript",
-    icon: javascript,
+    name: "SwiftUI",
+    icon: SwiftIcon,
+  },
+  {
+    name: "Angular",
+    icon: AngularIcon,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "HTML 5",
+    icon: html,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "CSS 3",
+    icon: css,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "JavaScript",
+    icon: javascript,
   },
   {
-    name: "Kubernetes",
-    icon: kubernetes,
+    name: "C/C++",
+    icon: CplusIcon,
+  },
+  {
+    name: "SQL",
+    icon: SqlIcon,
+  },
+  {
+    name: "Data Structures And Algorithms",
+    icon: DsaIcon,
+  },
+  // {
+  //   name: "Machine Learning",
+  //   icon: MachineLearningIcon,
+  // },
+  {
+    name: "MATLAB",
+    icon: MatlabIcon,
+  },
+  {
+    name: "Azure",
+    icon: AzureIcon,
   },
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
-  {
-    name: "jenkins",
-    icon: jenkins,
-  },
-  {
-    name: "bash script",
-    icon: bash
-  },
-  {
-    name: "python",
-    icon: python
-  },
-  {
-    name: "firebase",
-    icon: firebase
-  },
 ];
 
 const experiences = [
   {
-    title: "Full Stack Web Developer Intern",
-    company_name: "Benzag Labs",
-    icon: benzag_labs,
+    title: "SDE - 1",
+    company_name: "Truminds Software Systems",
+    icon: trumindsIcon,
     iconBg: "#383E56",
-    date: "Aug 2020 - Nov 2020",
+    date: "Aug 2023 - Present",
     points: [
       "Worked with React, Reselect, Redux, Firebase, Razorpay Api, Node-Sass, SailsJS, REST Apis and MongoDB.",
       "Implemented state and async code management using redux and saga, dynamic loading SVG animation generator.",
@@ -129,10 +150,10 @@ const experiences = [
   },
   {
     title: "Software  Developer Intern",
-    company_name: "Moogle",
-    icon: moogle,
-    iconBg: "#E6DEDD",
-    date: "Mar 2021 - May 2021",
+    company_name: "Truminds Software Systems",
+    icon: trumindsIcon,
+    iconBg: "#383E56",
+    date: "Jan 2023 - July 2023",
     points: [
       "Switched basic app framework from VueJS to ReactJS and implemented provided AdobeXD design Upgrades.",
       "Applied multi-threading using web-worker for reoccurring tasks on react.",
@@ -141,30 +162,30 @@ const experiences = [
     ],
   },
   {
-    title: "Intern",
-    company_name: "VMware",
-    icon: vmware,
+    title: "Industrial Trainee",
+    company_name: "Deft Organics Ltd.",
+    icon: deftIcon,
     iconBg: "#383E56",
-    date: "Jan-2022 - July-2022",
+    date: "May 2022 - June 2022",
     points: [
       "Worked on super-collider to gather data using vdkcli and python scripting and creating charts to monitor data.",
       "Worked with python scripting to automate data collection through super-collider job which was previously done manually",
       "Worked with tools like wavefront, bigpanda, logz to monitor, maintain and remediate alerts for customer sddc’s"
     ],
   },
-  {
-    title: "Member of Technicla Staff - 1",
-    company_name: "VMware",
-    icon: vmware,
-    iconBg: "#E6DEDD",
-    date: "July 2022 - Present",
-    points: [
-      "Worked on automating & patching activity for different components of the project using python and Jenkins.",
-      "Day to day activities involved monitoring, remediating and escalating customer’s software defined data center alerts",
-      "Authored RTS(Remediation & Troubleshooting Service) scripts which use python scripting for automating common day to day alerts triaging and remediation",
-      "Developed and maintained monitoring capabilities for diffent aspects of the project like backup failure, vm snapshot analysis, cert expiry etc. using python and jenkins"
-    ],
-  }
+  // {
+  //   title: "Member of Technicla Staff - 1",
+  //   company_name: "VMware",
+  //   icon: vmware,
+  //   iconBg: "#E6DEDD",
+  //   date: "July 2022 - Present",
+  //   points: [
+  //     "Worked on automating & patching activity for different components of the project using python and Jenkins.",
+  //     "Day to day activities involved monitoring, remediating and escalating customer’s software defined data center alerts",
+  //     "Authored RTS(Remediation & Troubleshooting Service) scripts which use python scripting for automating common day to day alerts triaging and remediation",
+  //     "Developed and maintained monitoring capabilities for diffent aspects of the project like backup failure, vm snapshot analysis, cert expiry etc. using python and jenkins"
+  //   ],
+  // }
 ];
 
 const testimonials = [

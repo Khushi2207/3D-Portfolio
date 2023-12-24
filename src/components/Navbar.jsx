@@ -22,12 +22,12 @@ const Navbar = () => {
             window.scrollTo(0,0)
           }}
         >
-          <img src={logo} alt="logo" className='w-9
-          h-9 object-contains'/>
+          {/* <img src={logo} alt="logo" className='w-9
+          h-9 object-contains'/> */}
           <p className='text-white text-[18px]
           font-bold cursor-pointer flex'>
-            Neelesh Thakur &nbsp;
-            <span className='sm:block hidden'>| MTS-1 VMWare</span> 
+            Khushi Gupta &nbsp;
+            {/* <span className='sm:block hidden'>| SDE-1 </span>  */}
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
@@ -35,7 +35,7 @@ const Navbar = () => {
               key="resume-download"
               className={`text-secondary hover:text-white text[-18px] font-medium cursor-pointer`}
             >
-              <a download href={`https://drive.google.com/file/d/1Ls9aSVyVcA_Nfg6FboyNNG5iqOqwcO2b/view?usp=share_link`} target="_blank">
+              <a download href={`https://drive.google.com/file/d/15MR8nUmgBAKcmBtgXtuR2COClGbuExvq/view?usp=drive_link`} target="_blank">
                 Resume
               </a>
             </li>

@@ -20,15 +20,34 @@ import bash from './tech/bash.png'
 import firebase from './tech/firebase.png'
 import python from './tech/python.png'
 import kubernetes from './tech/kubernetes.png'
+import flutterIcon from "./tech/flutterIcon.png";
+import SwiftIcon from "./tech/SwiftIcon.png";
+import css from "./tech/css.png";
+import AngularIcon from "./tech/AngularIcon.png";
+import AzureIcon from "./tech/AzureIcon.png";
+import BitbucketIcon from "./tech/BitbucketIcon.png";
+import ComputerNetworkIcon from "./tech/ComputerNetworkIcon.png";
+import CplusIcon from "./tech/CplusIcon.png";
+import OperatingSystemIcon from './tech/OperatingSystemIcon.png'
+import DsaIcon from './tech/DsaIcon.png'
+import JiraIcon from './tech/JiraIcon.png'
+import MachineLearningIcon from './tech/MachineLearningIcon.png'
+import SourcetreeIcon from './tech/SourcetreeIcon.png'
+import MatlabIcon from './tech/MatlabIcon.png'
+import SqlIcon from './tech/SqlIcon.png'
 
 import vmware from './company/VMware.jpeg'
 import moogle from './company/moogle.png'
 import benzag_labs from './company/benzag-labs.png'
+import trumindsIcon from './company/trumindsIcon.png'
+import deftIcon from './company/deftIcon.png'
 
 import crown_clothing from './crown_clothing.png'
 import expense_tracker from './expense_tracker.png'
 import maynooth from './maynooth.png'
 import yelpcamp from './yelpcamp.png'
+
+
 
 export {
   logo,
@@ -45,7 +64,7 @@ export {
   javascript,
   mongodb,
   nodejs,
-  reactjs,
+   reactjs,
   redux,
   jenkins,
   bash,
@@ -58,5 +77,22 @@ export {
   crown_clothing,
   expense_tracker,
   maynooth,
-  yelpcamp
+  yelpcamp,
+  deftIcon,
+  trumindsIcon,
+  flutterIcon,
+  SwiftIcon,
+  css,
+  AngularIcon,
+  CplusIcon,
+  SqlIcon,
+  MachineLearningIcon,
+  DsaIcon,
+  OperatingSystemIcon,
+  ComputerNetworkIcon,
+  BitbucketIcon,
+  JiraIcon,
+  SourcetreeIcon,
+  AzureIcon,
+  MatlabIcon
 };
