@@ -21,7 +21,7 @@ const Hero = () => {
             text-white-100`}>
               Software Developer Engineer at 
               <br className='sm:block hidden'/>
-              Truminds Software Systems, Bangalore
+              Truminds Software Systems
             </p>
         </div>
       </div>
