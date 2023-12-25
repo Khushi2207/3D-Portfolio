@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import linkedin from './linkedin.png'
 
 import docker from "./tech/docker.png";
 import git from "./tech/git.png";
@@ -41,6 +42,8 @@ import moogle from './company/moogle.png'
 import benzag_labs from './company/benzag-labs.png'
 import trumindsIcon from './company/trumindsIcon.png'
 import deftIcon from './company/deftIcon.png'
+import bvn from './company/bvn.png'
+import manit from './company/manit.png'
 
 import crown_clothing from './crown_clothing.png'
 import expense_tracker from './expense_tracker.png'
@@ -104,5 +107,8 @@ export {
   TrumindsProject1,
   TrumindsProject2,
   BusManagement,
-  MovieRecommendation
+  MovieRecommendation,
+  bvn,
+  manit,
+  linkedin
 };

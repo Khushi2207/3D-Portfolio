@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { logo, menu, close } from '../assets'
+import { logo, menu, close, github } from '../assets'
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -65,7 +65,7 @@ const Navbar = () => {
                 key="resume-download"
                 className={`text-secondary hover:text-white text[-18px] font-medium cursor-pointer`}
               >
-                <a download href={`https://drive.google.com/file/d/1Ls9aSVyVcA_Nfg6FboyNNG5iqOqwcO2b/view?usp=share_link`} target="_blank">
+                <a download href={`https://drive.google.com/file/d/15MR8nUmgBAKcmBtgXtuR2COClGbuExvq/view?usp=drive_link`} target="_blank">
                   Resume
                 </a>
               </li>

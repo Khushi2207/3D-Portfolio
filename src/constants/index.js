@@ -43,10 +43,12 @@ import {
   BusManagement,
   MovieRecommendation,
   TrumindsProject1,
-  TrumindsProject2
+  TrumindsProject2,
+  bvn,
+  manit
 } from "../assets";
 
-export const navLinks = [
+export const navLinks = [     
   {
     id: "about",
     title: "About",
@@ -54,6 +56,10 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "education",
+    title: "Education",
   },
   {
     id: "contact",
@@ -179,6 +185,39 @@ const experiences = [
   },
 ];
 
+const educations = [
+  {
+    title: "B.Tech. in Chemical Engg",
+    company_name: "NIT Bhopal",
+    icon: manit,
+    iconBg: "#383E56",
+    date: "2019 - 2023",
+    points: [
+      "CGPA - 8.81"
+    ],
+  },
+  {
+    title: "Higher Secondary",
+    company_name: "Bhartiyam Vidya Niketan, Gwalior",
+    icon: bvn,
+    iconBg: "#383E56",
+    date: "2018",
+    points: [
+      "Percentage - 88",
+    ],
+  },
+  {
+    title: "Senior Secondary",
+    company_name: "Bhartiyam Vidya Niketan, Gwalior",
+    icon: bvn,
+    iconBg: "#383E56",
+    date: "2016",
+    points: [
+      "CGPA - 10.0"
+    ],
+  },
+];
+
 const testimonials = [
   {
     testimonial:
@@ -290,7 +329,7 @@ const projects = [
   {
     name: "Bus Reservation System",
     description:
-      "Used OOPS and File handling concepts for performing various functions like adding/displaying/updating/searching/deleting bus records, displaying routes of buses, and seats renew.", 
+      "Used OOPS and File handling concepts for performing various functions like adding/displaying/updating/searching/ deleting bus records, displaying routes of buses, and seats renew.", 
       tags: [
       {
         name: "C++",
@@ -310,4 +349,4 @@ const projects = [
   }
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects , educations};

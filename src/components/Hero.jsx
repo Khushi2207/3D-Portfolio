@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas'
+import { github, linkedin } from '../assets'
 
 const Hero = () => {
   return (
@@ -9,6 +10,15 @@ const Hero = () => {
       <div className={`absolute inset-0 top-[120px] max-w-7xl 
       mx-auto ${styles.paddingX} flex flex-row
       items-start gap-5`}>
+        <div className='flex flex-col justify-center items-center mt-5'>
+          <a href="https://github.com/Khushi2207" target="_blank">
+            <img src={github} alt="github" className='w-12 h-15 object-contains' />
+          </a>
+          &nbsp;
+          <a href="https://www.linkedin.com/in/khushi-gupta-2207/" target="_blank">
+            <img src={linkedin} alt="linkedin" className='w-11 h-11 object-contains' />
+          </a>
+        </div>
         <div className='flex flex-col justify-center
         items-center mt-5'>
           <div className='w-5 h-5 rounded-full bg-[#915eff]'/>
